@@ -1,64 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
-  <style>
-    /* Write your CSS Code here */
-    .flag {
-      width: 900px;
-      height: 600px;
-      background-color: #CE1126;
-      position: relative;
-      top: 0px
-    }
-    .flag > div {
-      background-color: #002868;
-      height: 300px;
-      position: absolute;
-      top: 150px;
-      width: 100%
-    }
-    .flag > p {
-      color: white;
-      text-align: center;
-      font-size: 70px
-    }
-    div div div {
-      background-color: white;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      position: relative;
-      left: 350px;
-    }
-    div div div p {
-      text-align: center;
-      font-size: 70px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler's Xmas List</title>
+    <style>
+        h1 {
+            color: green;
+            text-align: center;
+            font-size: 20px;
+        }
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+        ul {
+            color: red
+        }
+    </style>
 </head>
-
-<!-- 
-  IMPORTANT! Do not change any HTML
-Don't add any classes/ids/elements 
-Use what you know about combining selectors 
-and CSS specificity instead.
-Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
-Hint 2: You can use CSS inspection to get the colors from
-https://appbrewery.github.io/flag-of-laos/
--->
-
 <body>
-  <div class="flag">
-    <p>The Flag</p>
-    <div>
-      <div>
-        <p>of Laos</p>
-      </div>
-    </div>
-  </div>
+    <h1>Tyler's X-mas List:</h1>
+    <ul>
+        <li>Xbox Series S or Series X: Price Range $250+ <br>
+        Link: <a href="https://www.target.com/p/xbox-series-s-512gb/-/A-93578803?sid=&ref=tgt_adv_xsp&AFID=google&fndsrc=tgtao&DFA=71700000012510922&CPNG=PLA_Electronics_Priority%2BShopping%7CElectronics_Ecomm_Hardlines&adgroup=Electronics_Priority+TCINs&LID=700000001170770pgs&LNM=PRODUCT_GROUP&network=g&device=c&location=9010792&targetid=pla-294573402136&gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrquqvwY1s2VmMdAedHBXS2antNs0QqBxvGiTDYTgTAwuIA_OYgPwmnrBoChI0QAvD_BwE&gclsrc=aw.ds">Series S</a>
+        <a href="https://www.target.com/p/xbox-series-x-console/-/A-80790841?sid=1106S&ref=tgt_adv_xsp&AFID=google_pla_df&fndsrc=tmnv&DFA=71700000119963542&CPNG=PLA_DVM%2Ba064R0000155XMpQAM-HolidayKidsCatalog_2024_GoogleCampaign-1395082&adgroup=PLA_Always+on&LID=700000001393753pgs&network=g&device=c&location=9010792&gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrqurP0hGq18XXgSo3DYfkynZj1mnzLMSvGAhTPtTHBbfHWQ5VMpcE-1xoC_9oQAvD_BwE&gclsrc=aw.ds">Series X</a></a></li>
+        <li>Grill: Charcoal or Gas</li>
+        <li>Giftcards:</li>
+            <ul>
+                <li>Amazon</li>
+                <li>Publix</li>
+                <li>Xbox Live</li>
+            </ul>
+        <li>Hedge Trimmer: <a href="https://www.amazon.com/BEHTS300-20-Hedge-Trimmer-Saw/dp/B077ZC3NGZ/ref=asc_df_B077ZC3NGZ?mcid=3d8263462598336cbee3a9a59a330736&tag=hyprod-20&linkCode=df0&hvadid=693711674086&hvpos=&hvnetw=g&hvrand=18057523642475912781&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010792&hvtargid=pla-675946453321&psc=1">Black and Decker</a>
+        <br>*Doesn't have to be black and decker just a recommendation</li>
+        <li>Cash</li>
+        <li>Records: <a href="https://www.amazon.com/Colour-Shape-Foo-Fighters/dp/B005STGJDA/ref=sr_1_1?crid=1WQE10TGQQR1D&dib=eyJ2IjoiMSJ9.7YS-iKx5LouUPVMckEYRMuyfhaYjgWHk4Psh7hEz2_Uti2WDv6asvn-OhxkbBi3S_Rc4m1oDc5bVBCLsJ7QeuiopFbfRixCTxN0DF2mh098rNVPAj_cbelRxPGEKT53_DaAQpD82SWyAC2qh4Xv_B-z33a0bFxJEOL86zst8UkcLXMMZlkrqeXW94IT-pChjfBL3bpA5GEwHHkvVC4BXZvkqKGELANZkdPrUVWuGa48.Vtp8gELuNXcuDLRPBh3sQXPS7RxjBXUC-rmKOYY8lxM&dib_tag=se&keywords=foo+fighters+color+and+the+shape&qid=1732393171&sprefix=foo+fighters+color+and+the+shape%2Caps%2C136&sr=8-1">One</a>,
+        <a href="https://www.amazon.com/Tickets-My-Downfall-New-Cover/dp/B08NMGQWYG/ref=sr_1_1?crid=2WOJAYW84V6DX&dib=eyJ2IjoiMSJ9.grtWRzJRBA78MZrQ9xE2eaZYRZRwIkMuNQoMsHCPx5owRWXwqVUyheBLQHSrfBlMhonyb95CrqRIiWtIliw5hXMicVt8vay3GQtYJv3ZqZQ.bR4G3rfBTo44OLytwN3MQ-Ma2PwbuL1cJndRn--ATzk&dib_tag=se&keywords=mgk+tickets+to+my+downfall+vinyl&qid=1732393250&sprefix=mgk+tickets+to+my+downfall+viny%2Caps%2C234&sr=8-1">Two</a>,
+        <a href="https://www.amazon.com/Come-Around-Sundown-Kings-Leon/dp/B003YK42M0/ref=sr_1_1?crid=UMNEVIHGYR71&dib=eyJ2IjoiMSJ9.Uxlh7BvRGL4VIAelph1f91D0r8gouGLmX3dNx5P0C3AvooC4FHPaAwh0SCjjhlR8W1MSAxGGlqvQ_Ud5jD7qCA.yI-K9xXZg8JO9XWETADZ7sldGPxJPLiHd_shApua1Sk&dib_tag=se&keywords=kings+of+leon+come+around+sundown+vinyl&qid=1732393479&sprefix=kings+of+leon+com%2Caps%2C150&sr=8-1">Three</a>,
+        <a href="https://www.amazon.com/Aeroplane-Over-Neutral-Milk-Hotel/dp/B002PHVHFI/ref=sr_1_1?dib=eyJ2IjoiMSJ9.UdJkTnFWgta6m3EVb29Fd6xPaEQezpqWaTbYdO_N9GyiEZr9eHbK_B4IDOnAe99ReSGC9dBPf2TNeD5J5BfiYst2mTzy55wVk7vJhDhTpJevFNyhqS0GCxmXJwL7Rsi7J7iA-jw78WvYH2RLRAj75kjUSPgAecqMNGfHNte_vVCPXNJ0_e6kN-JshMzUANmvDtee7ZDYR7oiDOdnariShw.8DXzihwMKpLyU18cL5hAkOBy6ot9nO5NRDiqB4eJOy4&dib_tag=se&keywords=neutral+milk+hotel+vinyl&qid=1732393591&sr=8-1">Four</a>,
+        <a href="https://www.amazon.com/Hybrid-Theory-Vinyl-Linkin-Park/dp/B00F5YTHYQ/ref=sr_1_1?crid=15IN2R8HKJXPX&dib=eyJ2IjoiMSJ9.B2yS4xIxTvjHl5wPbZC0e2SoN065RTPv3UkuXK7SFebFe9OZeiAWYmZm04QG2Be3XjDLlA5Pnk_XaZ4X_ZrkTfOiQa1wbPRberUAmmhI8qjCaj3wGh3w4qaP-6vz2px0Y4agUJFANTqg3cVd2X7OLsPhg8AdPyOcdZ7_DAFKHLEZK13DIQmDW4Jzb_SJSZmwNlggtYhGjw8Uphi7TYaOBBV3ARyBIBl3rtpvnUZQAWI.QSWA26IY3LVJus8y0u_Yr6C2UHLQjqOA8pelvhx5T-o&dib_tag=se&keywords=Linkin+Park+hybrid+theory&qid=1732393649&sprefix=linkin+park+hybrid+theory%2Caps%2C336&sr=8-1">Five</a></li>
+        <li>New Balance Shoes (Size 10.5/11): <a href="https://www.amazon.com/New-Balance-Trail-Running-Quarry/dp/B0CLB1V6MG/ref=sr_1_8?crid=29K60DDZKK7XY&dib=eyJ2IjoiMSJ9.ziuLiymYU4HWRoMUJIbIib4mSqLNmfzAYDtvVpqDR4h4u0CMlo0Mar8qzmxU7p01jIISLf0k6MQUBqU6jy1cnLYMzzVoYJj4CL-N2CtQOn4DXlpL0zzosYaO4D-5wdyWrphsINcpCI9Hd4uRcgcABXwCyeUCOfz5Rd4bGMBYKi3W1gHnp5jbGdRkLVtcs5_4U8PkaPSrQc5tJquN1ZypICcIn5k1FnvOH_9qrmwZIYpTpr0Wu8U1jSsGm-UpULvBMgUfMF2f9KKQp_MzM5aa9ffktROWoU3kFioaG6hUALM.9qKIFu2TC0tiw1NS4yM5i-Rtw8iWz7JrrRmwddRPD5U&dib_tag=se&keywords=new+balance+mens+sneakers&qid=1732393748&sprefix=new+b%2Caps%2C201&sr=8-8">Link</a></li>
+        <li>Raspberry Pi: <a href="https://www.amazon.com/Raspberry-Pi-Model-Board-Plus/dp/B0BNJPL4MW/ref=sr_1_6?crid=23PPQIR4YZ3JK&dib=eyJ2IjoiMSJ9.TzIAlcap-JN7BzO8wHpHCSwgIi5exrtmK3QM-faWZzThpDcsijan7kvmM1wg_x1FxJCyON4FFKc6kfdkXhWhu7yvX73feN3XVvq7xlHhQ-NYadID7Rf-iOyooKOuHzHwmCqvDS20nthlYXzAlmGVxpqsO1Um5HND2tEOwSLoy3_oOaLuejzTkrx1xlRwY1o-Z0FsJcUAwnZdjxfC7JLy3zGt95OWR2wFgFV02V-T68k.X8VqJpRdSNPNGdRoepqgsymMievMpnlrz2ST-LygutA&dib_tag=se&keywords=raspberry+pi&qid=1732394261&sprefix=ras%2Caps%2C107&sr=8-6">Link</a></li>
+    </ul>
 </body>
-
 </html>
